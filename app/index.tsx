@@ -58,6 +58,7 @@ const whatsappTheme = {
 
 const ChatsRoute = () => {
   const router = useRouter();
+
   const [discussions, setDiscussions] = React.useState([
     {
       id: "dcbzhibvhvbfhsvjvdivbshv",
@@ -66,6 +67,54 @@ const ChatsRoute = () => {
       content: [
         { role: "you", content: "Helloo" },
         { role: "target", content: "heyy what's up?" },
+      ],
+    },
+    {
+      id: "abc123xyz",
+      name: "Ndeye Aida Lô",
+      avatar: "https://avatar.iran.liara.run/public",
+      content: [
+        { role: "you", content: "Hey, how's your AI project going?" },
+        {
+          role: "target",
+          content: "It's going well! Just optimizing some models.",
+        },
+      ],
+    },
+    {
+      id: "xyz987lmn",
+      name: "John Doe",
+      avatar: "https://avatar.iran.liara.run/public",
+      content: [
+        { role: "you", content: "Did you finish the report?" },
+        { role: "target", content: "Not yet, but I’m almost done!" },
+      ],
+    },
+    {
+      id: "lmn654pqr",
+      name: "Jane Smith",
+      avatar: "https://avatar.iran.liara.run/public",
+      content: [
+        { role: "you", content: "Want to grab lunch?" },
+        { role: "target", content: "Sure! Where should we go?" },
+      ],
+    },
+    {
+      id: "efg321uvw",
+      name: "Aliou Diop",
+      avatar: "https://avatar.iran.liara.run/public",
+      content: [
+        { role: "you", content: "Did you see the new tech conference lineup?" },
+        { role: "target", content: "Yeah! Looks super interesting." },
+      ],
+    },
+    {
+      id: "hij789rst",
+      name: "Mariam Ba",
+      avatar: "https://avatar.iran.liara.run/public",
+      content: [
+        { role: "you", content: "Let's meet at 4 PM for the project update." },
+        { role: "target", content: "Okay, I'll be there!" },
       ],
     },
   ]);
